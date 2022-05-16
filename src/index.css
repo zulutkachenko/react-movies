@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main {
+  min-height: calc(100vh - 63.933px - 233.438px);
+  padding: 1.5rem 0;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  flex: 1 0 25%;
+}
+
+.search-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.radio-search {
+  display: flex;
+  justify-content: space-between;
+}
